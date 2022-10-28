@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form{
+padding: 50PX;
+background-color: rgb(17, 13, 8);
+margin: auto;
+color: greenyellow;
+display: grid;
+height: fit-content;
+width: fit-content;
+border-radius: 10px;
+box-shadow: 5px 10px 10px rgb(42, 36, 39);}
+
+ select ,.input{
+  margin: 10px;
+  background-color: black;
+  color: greenyellow;
+  padding: 15px;
+
+  box-shadow: 5px 10px 10px greenyellow;
+}
+.row{
+  margin:20px;}
+
+label{
+  width: 120px;
+  display: inline-block;
+  text-align: left;
+}
+.submit{padding: 10px;
+  background-color: rgb(106, 248, 115);
+  color: rgb(19, 20, 19);
+  border-radius: 50%;
+  margin-top: 40px;
+  box-shadow: 6px 10x 10px greenyellow;}
+
+td
+{border: 1px solid black;
+padding: 5px;}
+
+th{background-color: rgb(24, 119, 119);
+  padding: 5px;
+  color: white;
+  font-size: 20px;
+}
+input[type='file']{width:90px;
+  background-color: black;
+  color: greenyellow;
+  
+}
+
+input[type='radio']:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: #060606;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+}
+
+input[type='radio']:checked:after {
+  width: 15px;
+  height: 15px;
+  border-radius: 15px;
+  top: -2px;
+  left: -1px;
+  position: relative;
+  background-color: greenyellow;
+  content: '';
+  display: inline-block;
+  visibility: visible;
+  border: 2px solid white;
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+table {border: 2px solid black;
+  border-collapse: collapse;
+  border-color: greenyellow;
+  border-radius: 10px;
+box-shadow: 5px 10px 10px rgb(42, 36, 39);
+/* background-color: black; */
+/* color: greenyellow; */
+padding: 20px;
+
+width: 100%;
+}
+
+.delete{background-color: red;
+  
+color: white;
+padding: 8px;
+border: none;}
+
+.delete:hover{box-shadow: 5px 6px 10px red;}
+.save{
+  background-color: #060606;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+ .edit, .editall, .save{
+  background-color: green;
+  color: white;
+  padding: 8px;
+  border: none;
+ }
+ .edit:hover{
+  box-shadow: 5px 6px 10px green;
+ }
